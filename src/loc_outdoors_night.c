@@ -29,7 +29,7 @@ int loc_outdoors_night(void) {
 		animationClipsPlayer[i].h = frameHeightPlayer;
 	}
 	
-	vitalikRect.x = SCREEN_WIDTH;
+	vitalikRect.x = SCREEN_WIDTH / 2 + PLAYER_WIDTH / 2;
 	vitalikRect.y = SCREEN_HEIGHT - ADULT_HEIGHT;
 	vitalikRect.w = ADULT_WIDTH;
 	vitalikRect.h = ADULT_HEIGHT;

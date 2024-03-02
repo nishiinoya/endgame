@@ -33,7 +33,7 @@ void render(void) {
 		SDL_RenderCopy(renderer, chelTexture, NULL, &chelRect);
 	}
 	if (currentBg == 4) {
-		if (MET_VITALIK == 0) SDL_RenderCopy(renderer, vitalikTexture, &animationClipsVitalik[currentFrameVitalik], &vitalikRect);
+		SDL_RenderCopy(renderer, vitalikTexture, &animationClipsVitalik[currentFrameVitalik], &vitalikRect);
 	}
 	//Garden
 	if (currentBg == 5) {
@@ -46,7 +46,7 @@ void render(void) {
 	}
 	if (currentBg == 7) {
 		SDL_RenderCopy(renderer, DoorTexture, &animationClipsDoor[currentFrameDoor], &NightGateDoorRect);
-		//SDL_RenderCopy(renderer, vitalikTexture, &animationClipsVitalik[currentFrameVitalik], &vitalikRect);
+		SDL_RenderCopy(renderer, vitalikTexture, &animationClipsVitalik[currentFrameVitalik], &vitalikRect);
 	}
 	SDL_RenderCopy(renderer, playerTexture, &animationClipsPlayer[currentFramePlayer], &playerRect);
 	// Present the renderer

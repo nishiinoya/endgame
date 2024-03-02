@@ -1,6 +1,6 @@
 #include "header.h"
 
-int loadGame(void) {
+int loadGame() {
 
        int fontSize = SCREEN_WIDTH / 20;
         int fontsize1 = SCREEN_WIDTH / 40;

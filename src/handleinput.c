@@ -384,7 +384,6 @@ void handleInput(void) {
 					frameCounterVitalik = 0;
 				}
 				vitalikRect.x -= VITALIK_SPEED;
-				if (vitalikRect.x == 0) MET_VITALIK++;
 			
 			if (abs(playerRect.x - InDoorRect.x) < 100) {
 				is_player_near = true;
@@ -426,6 +425,7 @@ void handleInput(void) {
 				LEVEL = 3;
 				PREV_LEVEL = 1;
 			}
+			MET_VITALIK = 1;
 		}
 		if (currentBg == 5) {
 			
@@ -548,13 +548,13 @@ void handleInput(void) {
 					SDL_RenderPresent(renderer);
 
 				}
-			}
+			}*/
 			frameCounterVitalik++;
 			if (frameCounterVitalik >= FRAME_DELAY) {
 				currentFrameVitalik = (currentFrameVitalik + 1) % 3 + 1;
 				frameCounterVitalik = 0;
 			}
-			vitalikRect.x += VITALIK_SPEED;*/
+			vitalikRect.x += VITALIK_SPEED;
 		
 			//SDL_RenderCopy(renderer, DoorTexture, NULL, &RoomDoorRect);
 			if (abs(playerRect.x - NightGateDoorRect.x) < 100) {

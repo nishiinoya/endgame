@@ -2,7 +2,7 @@
 
 TTF_Font* Comfortaa;
 
-int help_screen(void) {
+int help_screen() {
 	Comfortaa = TTF_OpenFont("resources/fonts/ComfortaaRegular.ttf", 18); // Smaller text size
 	if (Comfortaa == NULL) {
 		printf("Font loading error: %s\n", TTF_GetError());

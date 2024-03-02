@@ -3,7 +3,7 @@
 Mix_Chunk* sound = NULL;
 Mix_Music* backgroundMusic = NULL;
 
-int showmenu(void) {
+int showmenu() {
 	if (h != 0) {
 		bg_music("resources/sounds/mainmenu.mp3", 1);
 		h = 0;

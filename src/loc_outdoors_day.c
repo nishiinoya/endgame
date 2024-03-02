@@ -55,7 +55,8 @@ int loc_outdoors_day(void) {
 	chelRect.w = TEEN_WIDTH;
 	chelRect.h = TEEN_HEIGHT;
 	
-	vitalikRect.x = SCREEN_WIDTH - DEV;
+	if (MET_VITALIK == 0) vitalikRect.x = SCREEN_WIDTH;
+	else vitalikRect.x = -SCREEN_WIDTH;
 	vitalikRect.y = SCREEN_HEIGHT - ADULT_HEIGHT;
 	vitalikRect.w = ADULT_WIDTH;
 	vitalikRect.h = ADULT_HEIGHT;
