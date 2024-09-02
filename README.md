@@ -1,7 +1,7 @@
 <h1 align="center" id="title">EndGame</h1>
 
 
-<p id="description">Step into EndGame the final project of NTU KhPI’s intense C Marathon. This psychological horror with detective elements invites you to unravel a tense and mysterious storyline. Prepare to face dark secrets unsettling truths and a world full of suspicion. Are you ready for the challenge?</p>
+<p id="description">Step into EndGame the final project of Innovation Campus intense C Marathon. This psychological horror with detective elements invites you to unravel a tense and mysterious storyline. Prepare to face dark secrets unsettling truths and a world full of suspicion. Are you ready for the challenge?</p>
 
 <h2>🚀 Demo LetsPlay</h2>
 
